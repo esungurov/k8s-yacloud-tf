@@ -1,0 +1,19 @@
+yandex_cloud = {
+  "cloud_id"  = "..."
+  "folder_id" = "..."
+  "zone"      = "..."
+}
+
+yandex_key = "..." #Path to key that you generate with yc cli
+
+kube_cluster = {
+  "version" = "..."
+  "res_cores" = "..."  
+  "res_core_fraction" = "..."
+  "res_memory" = "..."
+  "disk_type" = "..."
+  "disk_size" = "..."
+  "scale_min" = "..."
+  "scale_initial" = "..."
+  "scale_max" = "..."
+}
